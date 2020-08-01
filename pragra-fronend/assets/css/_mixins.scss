@@ -6,6 +6,15 @@
   }
 }
 
+@mixin roundBtn($radius, $color, $padding) {
+  border-radius:$radius;
+  -moz-border-radius:$radius;
+  -webkit-border-radius:$radius;
+  background-color: $color;
+  padding: $padding;
+
+}
+
 @mixin config-bg-colors($prefix, $bg_color...) {
   @each $i in $bg_color {
     .#{$prefix}#{nth($i, 1)} {

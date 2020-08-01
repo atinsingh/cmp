@@ -1169,12 +1169,10 @@ $highlighter: #ff7f50;
  .home-slider-text h4 a {
 
    font-style: normal;
-   font-weight: bold;
    font-size: 18px;
    line-height: 24px;
    text-align: left;
-   text-transform: capitalize;
-   color: #484C57;
+   color: $accentTwo;
    margin: 0 0 10px;
    display: block;
  }
@@ -1191,7 +1189,7 @@ $highlighter: #ff7f50;
    line-height: 20px;
    text-align: justify;
    text-transform: capitalize;
-   color: #000000;
+   color: #535c68;
    margin: 0 0 15px;
  }
 
@@ -1292,7 +1290,6 @@ $highlighter: #ff7f50;
  .slider-bottom-left p {
 
    font-style: normal;
-   font-weight: bold;
    font-size: 18px;
    line-height: 24px;
    color: #EB5757;
@@ -1983,11 +1980,10 @@ $highlighter: #ff7f50;
 
    font-style: normal;
    font-weight: normal;
-   font-size: 54px;
+   font-size: 40px;
    line-height: 48px;
    text-align: left;
    text-transform: capitalize;
-   color: #263238;
   }
 
  .schedule-batches-box ul {
@@ -1998,7 +1994,7 @@ $highlighter: #ff7f50;
  .schedule-batches-box ul li {
    display: block;
    position: relative;
-   padding: 0 0 0 35px;
+   padding: 0 0 0 24px;
 
    font-style: normal;
    font-weight: normal;
@@ -2006,7 +2002,7 @@ $highlighter: #ff7f50;
    line-height: 20px;
    text-align: left;
    text-transform: capitalize;
-   color: #263238;
+   color: #dff9fb;
    margin: 0 0 30px;
  }
 
@@ -2082,15 +2078,14 @@ $highlighter: #ff7f50;
 
    font-style: normal;
    font-weight: normal;
-   font-size: 80px;
-   line-height: 80px;
+   font-size: 60px;
+   line-height: 60px;
    text-align: justify;
+   background-color: $primary;
    text-transform: capitalize;
-   background: -webkit-gradient(linear, left top, right top, from(#5bb3e4), to(#64c1cd));
-   background: linear-gradient(to top, #5bb3e4 0%, #64c1cd 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   margin: 0 0 60px;
+   padding-bottom: 2em;
  }
 
  .prerequisite-courses-in {
@@ -2099,11 +2094,10 @@ $highlighter: #ff7f50;
  }
 
  .we-guarantee {
-   background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F2F2 100%);
-   background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F2F2 100%);
-   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F2F2 100%);
+   background-color:#c7ecee;
    position: relative;
-   padding: 50px 0 120px;
+   padding-top: 2em;
+   padding-bottom: 1em;
  }
 
  .we-guarantee .home-learning-boxes {
@@ -2496,7 +2490,7 @@ $highlighter: #ff7f50;
  }
 
  .new-home-placement {
-   padding: 20px 0 20px;
+   //padding: 20px 0 20px;
  }
 
  .new-home-placement .home-heading-double {
@@ -2924,7 +2918,7 @@ $highlighter: #ff7f50;
 }
 
  .project-training-row {
-   margin-top: 100px;
+   //margin-top: 100px;
  }
 
  .new-home-corporate-training {
@@ -5684,7 +5678,7 @@ $highlighter: #ff7f50;
    }
 
    .new-home-placement {
-     padding: 70px 0 50px;
+     padding: 1rem 0 1rem;
    }
 
    .new-home-placement .home-heading-double::after {
